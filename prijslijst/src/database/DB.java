@@ -51,7 +51,7 @@ public class DB {
                 while (rs.next()) {
                     ret.put( rs.getString("Productnaam"),rs.getFloat("Prijs"));
                 }
-            }
+            }//ok
         } catch (SQLException ex) {
             Logger.getLogger(DB.class.getName()).log(Level.SEVERE, null, ex);
         }
